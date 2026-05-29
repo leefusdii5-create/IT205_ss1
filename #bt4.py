@@ -1,6 +1,4 @@
 #bt4
-
-def main():
     ma_bn = input("Nhập mã bệnh nhân: ").strip()
     nhiet_do = float(input("Nhập nhiệt độ cơ thể: "))
     nhip_tim = int(input("Nhập nhịp tim: "))
@@ -13,5 +11,3 @@ def main():
     print(f"=> Kiểu dữ liệu hệ thống ghi nhận: {type(nhip_tim)}")
     print("--------------------------------------------------")
     print("Thông báo: Dữ liệu hợp lệ. Màn hình Monitor đã sẵn sàng kết nối!")
-
-    main()
